@@ -1,0 +1,310 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* Homepage */
+.bar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: lightsteelblue;
+	position: sticky;
+	top: 0;
+}
+.bar ul{
+	display: flex;
+	list-style: none;
+	margin: 25px 0px;
+}
+.bar ul li{
+	font-family: arial;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+.bar ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	transition: all .4s ease;
+}
+.bar ul li a:hover{
+	background-color: seashell;
+	color: royalblue;
+	box-shadow: 0 0 15px powderblue;
+}
+#done{
+	display: flex;
+	flex-direction: column;
+	height: 820px;
+	justify-content: center;
+	align-items: center;
+	color: midnightblue;
+}
+#done::before{
+	content: "";
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	background: url(Mount-Everest.jpg) no-repeat center center/cover;
+	height: 905px;
+	width: 105%;
+	z-index: -1;
+	opacity: .9;
+}
+.min{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	top: 40%;
+	right: 15%; 
+}
+.ing{
+	font-family: arial;
+	font-size: 4rem;
+	text-align: center;
+	margin: 45px 0px;
+}
+/* Portfolio */
+.eat{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: maroon;
+	position: sticky;
+	top: 0;
+}
+.eat ul{
+	display: flex;
+	list-style: none;
+	margin: 25px 0px;
+}
+.eat ul li{
+	font-family: arial;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+.eat ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	transition: all .4s ease;
+}
+.eat ul li a:hover{
+	background-color: seashell;
+	color: orangered;
+	box-shadow: 0 0 12px powderblue;
+}
+#reef{
+	display: flex;
+	flex-direction: column;
+	background-color: gainsboro;
+	color: darkred;
+	align-items: center;
+	padding: 30px; 
+}
+.heat{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	box-sizing: border-box;
+}
+.heat img{
+	width: 350px;
+	height: 500px;
+	margin: 20px;
+}
+/* Contacts */
+.good{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: sienna;
+	position: sticky;
+	top: 0;
+}
+.good ul{
+	display: flex;
+	list-style: none;
+	margin: 25px 0px;
+}
+.good ul li{
+	font-family: arial;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+.good ul li a{
+	text-decoration: none;
+	color: ghostwhite;
+	padding: 10px 20px;
+	transition: all .4s ease;
+}
+.good ul li a:hover{
+	background-color: ghostwhite;
+	color: crimson;
+	box-shadow: 0 0 12px orangered;
+}
+#us{
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	background: url(sunset.jpg) no-repeat center center/cover;
+	color: white;
+	padding: 100px;
+}
+.know{
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	align-items: center;
+	margin: 90px 0px
+}
+.order{
+	padding: 15px;
+	margin: 20px;
+	width: 35%;
+	border: none;
+	outline: none;
+}
+#cmt{
+	width: 25%;
+	padding: 15px;
+	margin: 20px;
+	border: none;
+	outline: none;
+}
+#reach{
+	padding: 15px;
+	width: 15%;
+	margin: 45px;
+	border: none;
+	outline: none;
+}
+#reach:hover{
+	cursor: pointer;
+	box-shadow: 0 0 15px sandybrown;
+}
+/* Curriculum Viate */
+.miss{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rebeccapurple;
+	position: sticky;
+	top: 0;
+}
+.miss ul{
+	display: flex;
+	list-style: none;
+	margin: 25px 0px;
+}
+.miss ul li{
+	font-family: arial;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+.miss ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	transition: all .4s ease;
+}
+.miss ul li a:hover{
+	background-color: cornsilk;
+	color: black;
+	box-shadow: 0 0 12px powderblue;
+}
+#on{
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	background: url(stars.jpg) no-repeat center center/cover;
+	height: 905px;
+	padding: 100px;
+}
+.mat{
+	color: ghostwhite;
+	font-family: arial;
+	font-size: 2rem;
+	padding: 10px;
+
+}
+#got{
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	padding: 15px;
+	color: white;
+	font-family: arial;
+}
+#ott{
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	padding: 15px;
+	color: white;
+	font-family: arial;
+}
+#dty{
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	padding: 15px;
+	color: white;
+	font-family: arial;
+}
+/* Site Report */
+.side{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: teal;
+	position: sticky;
+	top: 0;
+}
+.side ul{
+	display: flex;
+	list-style: none;
+	margin: 25px 0px;
+}
+.side ul li{
+	font-family: arial;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+.side ul li a{
+	text-decoration: none;
+	color: ghostwhite;
+	padding: 10px 20px;
+	transition: all .4s ease;
+}
+.side ul li a:hover{
+	background-color: seashell;
+	color: black;
+	box-shadow: 0 0 12px powderblue;
+}
+#hall{
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	color: white;
+	padding: 30px; 
+}
+.add img{
+	margin: 10px;
+	padding: 20px;
+}
+.print{
+	font-family: arial;
+	font-size: 2rem;
+	text-align: left;
+	margin: 15px 0px;
+}
+.ink{
+	font-family: arial;
+	font-size: 2rem;
+	text-align: center;
+	margin: 30px 0px;
+}
+

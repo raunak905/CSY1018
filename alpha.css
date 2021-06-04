@@ -39,11 +39,10 @@
 	height: 820px;
 	justify-content: center;
 	align-items: center;
-	color: midnightblue;
+	color: navy;
 }
 #done::before{
 	content: "";
-	position: absolute;
 	top: 1px;
 	right: 1px;
 	background: url(Mount-Everest.jpg) no-repeat center center/cover;
@@ -57,8 +56,8 @@
 	flex-direction: column;
 	align-items: center;
 	position: absolute;
-	top: 40%;
-	right: 15%; 
+	top: 60%;
+	right: 7%; 
 }
 .ing{
 	font-family: arial;
@@ -99,8 +98,8 @@
 #reef{
 	display: flex;
 	flex-direction: column;
-	background-color: gainsboro;
-	color: darkred;
+	background-color: brown;
+	color: snow;
 	align-items: center;
 	padding: 30px; 
 }
@@ -227,39 +226,39 @@
 	color: ghostwhite;
 	font-family: arial;
 	font-size: 2rem;
-	padding: 10px;
+	margin: 10px 5px;
 
 }
 #got{
 	display: flex;
 	flex-direction: column;
-	text-align: justify;
-	padding: 15px;
+	text-align: left;
 	color: white;
 	font-family: arial;
+	margin: 10px 0px;
 }
 #ott{
 	display: flex;
 	flex-direction: column;
-	text-align: justify;
-	padding: 15px;
+	text-align: left;
 	color: white;
 	font-family: arial;
+    margin: 10px 0px;
 }
 #dty{
 	display: flex;
 	flex-direction: column;
-	text-align: justify;
-	padding: 15px;
+	text-align: left;
 	color: white;
 	font-family: arial;
+	margin: 10px 0px;
 }
 /* Site Report */
 .side{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: teal;
+	background-color: chocolate;
 	position: sticky;
 	top: 0;
 }
@@ -287,8 +286,8 @@
 #hall{
 	display: flex;
 	flex-direction: column;
-	background-color: black;
-	color: white;
+	background-color: teal;
+	color: cornsilk;
 	padding: 30px; 
 }
 .add img{

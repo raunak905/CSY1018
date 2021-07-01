@@ -350,6 +350,7 @@
 }
 .add img{
 	width: 90%;
+	height: 50%
 	object-fit: cover;
 }
 }
